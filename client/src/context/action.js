@@ -1,0 +1,23 @@
+export const DISPLAY_ALERT = 'SHOW_ALERT'
+export const CLEAR_ALERT = 'HIDE_ALERT'
+
+export const SETUP_USER = 'SETUP_USER'
+export const SETUP_SUCCESS = 'SETUP_SUCCESS'
+export const SETUP_FAIL = 'SETUP_FAIL'
+export const USER_LOGOUT = 'USER_LOGOUT'
+
+export const TOGGLE_SIDEBAR = 'TOGGLE_SIDEBAR'
+
+export const UPDATE_USER = 'UPDATE_USER'
+export const UPDATE_USER_SUCCESS = 'UPDATE_USER_SUCCESS'
+export const UPDATE_USER_FAIL = 'UPDATE_USER_FAIL'
+
+export const HANDLE_CHANGE = 'HANDLE_CHANGE'
+export const CLEAR_VALUES = 'CLEAR_VALUES'
+
+export const CREATE_JOB = 'CREATE_JOB'
+export const CREATE_JOB_SUCCESS = 'CREATE_JOB_SUCCESS'
+export const CREATE_JOB_FAIL = 'CREATE_JOB_FAIL'
+
+export const GET_JOBS = 'GET_JOBS'
+export const GET_JOBS_SUCCESS = 'GET_JOBS_SUCCESS'

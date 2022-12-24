@@ -58,7 +58,7 @@ const AppProvider = ({ children }) => {
   // request interceptors 
   axiosFetch.interceptors.request.use(
     (config) => {
-      config.headers.common['Authorization'] = `Bearer ${state.token}`
+      config.headers['Authorization'] = `Bearer ${state.token}`
       return config
     },
     (error) => {
@@ -182,9 +182,9 @@ const AppProvider = ({ children }) => {
     }
     clearAlert()
   }
-  // useEffect(() => {
-  //   getJobs()
-  // }, [])
+  useEffect(() => {
+    getJobs()
+  }, [])
   return (
     <AppContext.Provider value={{ ...state, displayAlert, clearAlert, setupUser, logout, toggleSidebar, updateUser, handleChange, clearValues, createJob }} >
       {children}
